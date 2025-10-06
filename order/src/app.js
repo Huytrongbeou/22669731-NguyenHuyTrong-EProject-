@@ -29,8 +29,7 @@ class App {
   
     setTimeout(async () => {
       try {
-        const amqpServer = "amqp://rabbitmq:5672";
-        const connection = await amqp.connect(amqpServer);
+        const connection = await amqp.connect(config.rabbitMQURI);
         console.log("Connected to RabbitMQ");
         const channel = await connection.createChannel();
         await channel.assertQueue("orders");
