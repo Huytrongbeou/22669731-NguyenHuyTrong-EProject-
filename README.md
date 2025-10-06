@@ -1,6 +1,41 @@
 # E-Commerce Microservices Project
 
 A distributed e-commerce system built with Node.js microservices architecture, featuring user authentication, product management, and order processing with message queuing.
+## 📸 Screenshots & Demonstrations
+
+<!-- Add your screenshots here -->
+
+### User Registration
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23cec98c-8332-46e5-90e8-74674032f6ae" />
+### -> Check in database:
+<img width="1909" height="1064" alt="image" src="https://github.com/user-attachments/assets/cb1ab3ac-01b3-417b-bcf9-ed9e6a5d77f6" />
+
+
+### User Login and create token for user
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/c83ac83a-ce21-4a5d-9314-1b4892ce28e6" />
+
+
+### User dashboard after login and authorized with token
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/768a92ec-9c2c-4409-b136-4e615b37194a" />
+
+
+### Product Creation
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac4e55c9-736b-48da-89d3-600399346b25" />
+### -> Check in database:
+<img width="1902" height="1058" alt="image" src="https://github.com/user-attachments/assets/69043687-5ad3-4939-b90f-0657c274025f" />
+
+### Product Catalog with GET method
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/095583cb-4fe8-4056-b768-320edab04fe8" />
+
+
+### Order Completion
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e00290b7-0db0-4f1f-99be-a083a1047ab8" />
+
+### RabbitMQ Message Queues
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5d5760fa-39f5-4b31-9288-59199284df36" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/921471f1-efa2-44e1-829a-dff030489926" />
+
+
 
 ## 🏗️ Architecture Overview
 
@@ -277,45 +312,7 @@ The system implements the following message flow for order processing:
 4. **Order Service** → **Products Queue** → **Product Service** (order completion)
 5. **Product Service** updates order status and returns response to client
 
-## 📸 Screenshots & Demonstrations
 
-<!-- Add your screenshots here -->
-
-### System Architecture
-*Add screenshot of your architecture diagram here*
-
-### API Gateway in Action
-*Add screenshot of API Gateway routing requests*
-
-### User Registration
-*Add screenshot of user registration in Postman*
-
-### User Login
-*Add screenshot of successful login with JWT token*
-
-### Product Catalog
-*Add screenshot of product listing*
-
-### Product Creation
-*Add screenshot of creating a new product*
-
-### Order Processing
-*Add screenshot of order creation request*
-
-### Order Completion
-*Add screenshot of successful order with username populated*
-
-### RabbitMQ Message Queues
-*Add screenshot of RabbitMQ management interface showing queues*
-
-### MongoDB Collections
-*Add screenshot of MongoDB collections for each service*
-
-### Service Logs
-*Add screenshot of console logs showing message processing*
-
-### Postman Collection
-*Add screenshot of your complete Postman collection*
 
 ## 🧪 Testing
 
