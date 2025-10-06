@@ -15,20 +15,32 @@ A distributed e-commerce system built with Node.js microservices architecture, f
 <img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/c83ac83a-ce21-4a5d-9314-1b4892ce28e6" />
 
 
-### User dashboard after login and authorized with token
+### User dashboard after login
+### Without Token
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c8674eae-962f-4f2e-a77f-14ced7247575" />
+### Authorized with token
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/768a92ec-9c2c-4409-b136-4e615b37194a" />
 
 
 ### Product Creation
+### Without Token
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a1c87dd-9b90-4688-a0f8-813b2ac1088e" />
+### Authorized with token
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ac4e55c9-736b-48da-89d3-600399346b25" />
 ### -> Check in database:
 <img width="1902" height="1058" alt="image" src="https://github.com/user-attachments/assets/69043687-5ad3-4939-b90f-0657c274025f" />
 
 ### Product Catalog with GET method
+### Without Token
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/16e0c760-f800-4f25-959f-8a496a3427b3" />
+### Authorized with token
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/095583cb-4fe8-4056-b768-320edab04fe8" />
 
 
 ### Order Completion
+### Without Token
+<img width="1914" height="1079" alt="image" src="https://github.com/user-attachments/assets/9d25a004-657b-4d57-b67f-dd620f1fa6ef" />
+### Authorized with token
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e00290b7-0db0-4f1f-99be-a083a1047ab8" />
 
 ### RabbitMQ Message Queues
