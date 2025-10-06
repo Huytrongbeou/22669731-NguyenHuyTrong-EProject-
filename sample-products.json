@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Wireless Bluetooth Headphones",
+    "price": 79.99,
+    "description": "High-quality wireless headphones with noise cancellation and 30-hour battery life. Perfect for music lovers and professionals."
+  },
+  {
+    "name": "Smart Fitness Watch",
+    "price": 199.99,
+    "description": "Advanced fitness tracker with heart rate monitor, GPS, sleep tracking, and waterproof design. Compatible with iOS and Android."
+  },
+  {
+    "name": "Portable Power Bank",
+    "price": 29.99,
+    "description": "10,000mAh portable charger with fast charging technology. Compact design with dual USB ports and LED indicator."
+  },
+  {
+    "name": "Ergonomic Gaming Mouse",
+    "price": 49.99,
+    "description": "Professional gaming mouse with RGB lighting, adjustable DPI up to 12,000, and programmable buttons for competitive gaming."
+  }
+]
